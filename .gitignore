@@ -1,0 +1,27 @@
+cat << 'EOF' > .gitignore
+# OS & Editors
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.iml
+*.log
+
+# Backend
+backend/target/
+**/target/
+backend/*.jar
+backend/*.war
+
+# Frontend
+frontend/node_modules/
+**/node_modules/
+frontend/dist/
+**/dist/
+npm-debug.log*
+
+# Secrets
+.env
+*.env
+application-secret.properties
+EOF
