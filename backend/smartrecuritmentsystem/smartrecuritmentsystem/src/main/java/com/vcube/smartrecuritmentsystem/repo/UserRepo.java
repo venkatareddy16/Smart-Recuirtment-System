@@ -1,4 +1,4 @@
-package com.vcube.aismartrecuirtmentsystem.repo;
+package com.vcube.smartrecuritmentsystem.repo;
 
 
 import java.util.Optional;
