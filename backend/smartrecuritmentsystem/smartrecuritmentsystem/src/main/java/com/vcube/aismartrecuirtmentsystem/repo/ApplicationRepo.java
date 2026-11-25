@@ -4,7 +4,7 @@ import java.util.List;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 
-import com.vcube.aismartrecuirtmentsystem.entity.Application;
+import com.vcube.smartrecuritmentsystem.entity.Application;
 
 public interface ApplicationRepo extends JpaRepository<Application, Long> {
     // Find all applicants for a specific job
