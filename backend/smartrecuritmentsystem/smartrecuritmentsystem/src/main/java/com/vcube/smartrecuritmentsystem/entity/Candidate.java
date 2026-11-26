@@ -33,8 +33,6 @@ public class Candidate {
     @Column(columnDefinition = "TEXT")
     private String skills;
 
-    // Path or URL to the uploaded PDF resume file
-    private String resumeUrl;
 
     private LocalDateTime createdAt = LocalDateTime.now();
 }
